@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Zina";
+    src: url(fonts/Zina-Regular.woff) format('truetype');
+}
+@font-face {
+    font-family: "Zodiak";
+    src: url(fonts/Zodiak-Variable.woff2) format(truetype);
+}
+@font-face {
+    font-family: "Zodiak-thin";
+    src: url(fonts/Zodiak-ThinItalic.woff) format(truetype);
+}
+.fonts-cus{
+    font-family: "Zodiak",sans-serif; 
+}
+.fonts-cus-sm{
+    font-family: "Zodiak-thin",sans-serif;
+    font-size: small;
+}
+.fs-9{
+    font-size: 14px;
+}

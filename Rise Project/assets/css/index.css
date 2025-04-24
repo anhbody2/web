@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Zina";
+    src: url(fonts/Zina-Regular.woff) format('truetype');
+}
+
+@font-face {
+    font-family: "Zodiak";
+    src: url(fonts/Zodiak-Variable.woff2) format(truetype);
+}
+
+@font-face {
+    font-family: "Zodiak-thin";
+    src: url(fonts/Zodiak-ThinItalic.woff) format(truetype);
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.section-hero {
+    background: url('../images/banner3.png')top -120px center/contain no-repeat;
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+@media (max-width: 576px) {
+    .section-hero {
+        background: url('../images/banner3.png')top 30px center/contain no-repeat;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-hero {
+        height: 30vh;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-animation {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+body {
+    overflow-x: hidden;
+
+
+}
+
+.top-bar {
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.brand {
+    font-family: 'Zodiak', sans-serif;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.brand:hover {
+    color: darkgray;
+}
+
+.col {
+    padding: 1rem;
+    background-color: lightblue;
+    border: 2px solid white;
+}
+
+.banner3 {
+
+    height: 100vh;
+}
+
+.banner1 {
+
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .banner3 {
+
+        height: 50vh;
+    }
+
+    .banner1 {
+
+        height: 50vh;
+    }
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.left-center {
+    left: 9% !important;
+}
+
+.nav_icon {
+    font-size: 20px !important;
+    gap: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    max-height: 95vh;
+    object-fit: cover;
+    display: block;
+}
+
+.btn {
+    border-radius: 0;
+
+}
+
+.btn-cus {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.fonts-cus {
+    font-family: "Zodiak", sans-serif;
+}
+
+.fonts-cus-sm {
+    font-family: "Zodiak-thin", sans-serif;
+    font-size: small;
+}
+
+.box-ring {
+    border-radius: 0 !important;
+}
+
+.box-ring:focus {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 0 0.25rem rgba(36, 32, 32, 0.301);
+}
+
+.choose:hover {
+    text-decoration: underline blue;
+}
+
+.static-size {
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-animation {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suggestion:hover {
+    background-color: #6b6b6b36;
+}
+

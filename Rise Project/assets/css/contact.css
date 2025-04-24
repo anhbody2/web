@@ -1,0 +1,17 @@
+.animation-link-c{
+    position: relative;
+}
+.animation-link-c:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: rgba(255, 125, 162, 0.677);
+    left: 0;
+    bottom: 9px;
+    transition: 0.3s ease-in-out;
+
+}
+.animation-link-c:hover:after {
+    width: 100%; 
+}
